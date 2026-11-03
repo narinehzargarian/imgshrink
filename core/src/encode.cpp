@@ -1,5 +1,6 @@
 #include "imgshrink/encode.h"
 
+#include <algorithm>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

@@ -4,9 +4,11 @@
 
 #include <emscripten/emscripten.h>
 
+#include <algorithm>
 #include <cstdint>
 #include <cstdlib>
 #include <exception>
+#include <stdexcept>
 #include <string>
 
 #include "imgshrink/encode.h"
