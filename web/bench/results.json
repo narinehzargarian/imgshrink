@@ -1,0 +1,14 @@
+{
+  "image": "4000x3000 to 1600x1200",
+  "checkerboardGray": {
+    "correct": 188,
+    "wasm": 188,
+    "canvas": 128
+  },
+  "runs": 5,
+  "wasmMs": 82,
+  "jsMs": 243,
+  "canvasMs": 3,
+  "maxDifferenceWasmVsJs": 1,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/130.0.6723.31 Safari/537.36"
+}
