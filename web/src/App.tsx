@@ -303,7 +303,6 @@ export function App() {
       )}
 
       <footer>
-        Free and open source.{" "}
         <a href="https://github.com/narinehzargarian/imgshrink" target="_blank" rel="noreferrer">
           Source on GitHub
         </a>
