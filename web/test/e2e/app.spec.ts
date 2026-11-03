@@ -8,7 +8,7 @@ test.skip(!!process.env.BENCH, "benchmark run");
 const fixture = (name: string) => fileURLToPath(new URL(`../fixtures/${name}`, import.meta.url));
 
 async function open(page: Page) {
-  await page.goto("/");
+  await page.goto("./");
   await expect(page.locator("main")).toHaveAttribute("data-engine", "ready");
 }
 
