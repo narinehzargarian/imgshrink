@@ -243,8 +243,7 @@ export function App() {
             e.target.value = "";
           }}
         />
-        <strong>Drop photos here, or click to choose</strong>
-        <span>JPEG, PNG, WebP, GIF, and more. You can also paste an image.</span>
+        <strong>Drop images or choose</strong>
       </label>
 
       {items.length > 0 && (
