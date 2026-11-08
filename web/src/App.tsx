@@ -243,7 +243,8 @@ export function App() {
             e.target.value = "";
           }}
         />
-        <strong>Drop images or choose</strong>
+        <strong>Drag and drop images, or click to browse</strong>
+        <span>Supports JPEG, PNG, WebP, and GIF</span>
       </label>
 
       {items.length > 0 && (
